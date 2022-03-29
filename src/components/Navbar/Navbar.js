@@ -14,6 +14,17 @@ export default function Navbar() {
           Search
         </button>
       </form>
+      <div className="navbar__items">
+        <a className="navbar__item" href="#">
+          Home 
+        </a>
+        <a className="navbar__item" href="#">
+          About
+        </a>
+        <a className="navbar__item" href="#">
+          Contact
+        </a>
+      </div>
     </nav>
   );
 }
