@@ -1,21 +1,37 @@
 .navbar {
-  background-color: #000000;
-  height: 50px;
+  background-color: #01161e;
   max-width: 100%;
   color: #ffffff;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 50px;
+  flex-direction: column;
+  align-items: start;
 }
 
 .navbar__items {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 50px;
+  align-self: end;
   gap: 15px;
+  padding-right: 30px;
+  font-weight: 700;
 }
 
 .navbar__item {
   color: inherit;
+  text-decoration: none;
+}
+
+.navbar__search-form {
+  background-color: #598392;
+  padding: 30px;
+  flex: 1 0 100%;
+}
+
+.navbar__search-input {
+  border: none;
+  outline: none;
+  color: inherit;
+  background-color: transparent;
 }
